@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Amazon Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        header img {
+            max-height: 50px;
+        }
+        main {
+            display: flex;
+        }
+        .product-image {
+            flex: 0 0 200px;
+            margin-right: 20px;
+        }
+        .product-image img {
+            width: 100%;
+            height: auto;
+        }
+        .product-details {
+            flex: 1;
+        }
+        .product-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .product-price {
+            font-size: 20px;
+            color: #e47911;
+            margin-bottom: 10px;
+        }
+        .product-description {
+            margin-bottom: 20px;
+        }
+        .buy-now {
+            background-color: #f0c14b;
+            color: #111;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .buy-now:hover {
+            background-color: #ddb347;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://via.placeholder.com/150" alt="Amazon Logo">
+            <span>Today's Deals | Customer Service</span>
+        </header>
+        <main>
+            <div class="product-image">
+                <img src="https://via.placeholder.com/300" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <div class="product-title">Product Title Here</div>
+                <div class="product-price">$99.99</div>
+                <div class="product-description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat justo ac faucibus venenatis.</p>
+                    <p>Nullam vel nisi tempus, tempor libero ut, posuere magna.</p>
+                </div>
+                <button class="buy-now">Add to Cart</button>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
